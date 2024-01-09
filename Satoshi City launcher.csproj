@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Satoshi_City_launcher</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Btn_1_Petit.png" />
+    <None Remove="Btn_2_petit.png" />
+    <None Remove="Btn_Launch.png" />
+    <None Remove="discord.png" />
+    <None Remove="Facebook.png" />
+    <None Remove="FontLauncher.png" />
+    <None Remove="Instagram.png" />
+    <None Remove="SatoshyCity-template.jpg" />
+    <None Remove="Test-Logo-Gazette.png" />
+    <None Remove="ThugzAffiche4.png" />
+    <None Remove="ThugzNFT-Logo.png" />
+    <None Remove="ThugzNFT-Logo3.ico" />
+    <None Remove="Twitch.png" />
+    <None Remove="Twitter.png" />
+    <None Remove="WarThugz-Logo.png" />
+    <None Remove="Youtube.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Btn_1_Petit.png" />
+    <Resource Include="Btn_2_petit.png" />
+    <Resource Include="Btn_Launch.png" />
+    <Resource Include="discord.png" />
+    <Resource Include="Facebook.png" />
+    <Resource Include="FontLauncher.png" />
+    <Resource Include="Instagram.png" />
+    <Resource Include="SatoshyCity-template.jpg" />
+    <Resource Include="Test-Logo-Gazette.png" />
+    <Resource Include="ThugzAffiche4.png" />
+    <Resource Include="ThugzNFT-Logo.png" />
+    <Resource Include="ThugzNFT-Logo3.ico" />
+    <Resource Include="Twitch.png" />
+    <Resource Include="Twitter.png" />
+    <Resource Include="WarThugz-Logo.png" />
+    <Resource Include="Youtube.png" />
+  </ItemGroup>
+
+</Project>

@@ -120,16 +120,16 @@ namespace Satoshi_City_launcher
             }
         }
 
-
-            public static void CopyDirectory(string sourceDir, string destDir)
-            {
+        //récuperation des sauvegarde de jeu
+        public static void CopyDirectory(string sourceDir, string destDir)
+        {
                 // Crée le répertoire de destination s'il n'existe pas
                 DirectoryInfo dir = new DirectoryInfo(sourceDir);
 
-                if (!dir.Exists)
-                {
-                    throw new DirectoryNotFoundException("Source directory does not exist or could not be found: " + sourceDir);
-                }
+            if (dir.Exists)
+            {
+
+
 
                 DirectoryInfo[] dirs = dir.GetDirectories();
                 Directory.CreateDirectory(destDir);
@@ -148,6 +148,7 @@ namespace Satoshi_City_launcher
                     CopyDirectory(subdir.FullName, tempPath);
                 }
             }
+        }
 
         private void InstallGameFiles(bool _isUpdate, Version _onlineVersion)
         {

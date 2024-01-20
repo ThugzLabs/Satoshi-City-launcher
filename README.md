@@ -6,4 +6,4 @@ Egalement, le launcher permet d'accéder au réseaux sociaux et aux ressources W
 Step pour récupérer le code:
 Cloner le repo en local sur votre PC et utiliser visual code au visual studio pour générer la solution
 
-licence: Open source sous licence GNU GPL 3.0. Vous êtes libres de créer votre branche et modifier/faire évoluer le projet à conditions de citer la source: Thugz Labs SAS.
+licence: Open source sous licence Apache 2.0. Vous êtes libres de créer votre branche et modifier/faire évoluer le projet à conditions de citer la source: Thugz Labs SAS.
